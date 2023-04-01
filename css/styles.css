@@ -3,6 +3,8 @@
   --secondary-text-color: #434455;
   --primary-button: #4d5ae5;
   --background-button: #404bbf;
+  --portfolio-button-color: #ffffff;
+  --html-button-color: #ffffff;
 }
 .list {
   list-style: none;
@@ -135,13 +137,13 @@ body {
   display: flex;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: #ffffff;
+  color: var(--html-button-color);
   background-color: #4d5ae5;
 }
 .modal-button:hover,
 .modal-button:focus {
   background-color: #404bbf;
-  color: #ffffff;
+  color: var(--html-button-color);
 }
 .portfolio-button {
   font-family: 'Roboto', sans-serif;
@@ -152,10 +154,12 @@ body {
   display: flex;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: var(--primary-button);
+  color: var(--portfolio-button-color);
+  background-color: var(--background-button);
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
+  color: var(--portfolio-button-color);
   background-color: var(--background-button);
 }
 .hero-section {
