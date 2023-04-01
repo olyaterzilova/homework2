@@ -2,6 +2,7 @@
   --primary-text-color: #2e2f42;
   --secondary-text-color: #434455;
   --primary-button: #4d5ae5;
+  --background-button: #404bbf;
 }
 .list {
   list-style: none;
@@ -155,8 +156,7 @@ body {
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
-  background-color: #404bbf;
-  color: #ffffff;
+  background-color: var(--background-button);
 }
 .hero-section {
   background: #2e2f42;
