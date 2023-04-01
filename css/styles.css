@@ -38,23 +38,21 @@ body {
 }
 
 .logo {
-  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   display: flex;
-  align-items: center;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
 .logo-part-two {
-  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   display: flex;
-  align-items: center;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -85,7 +83,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   display: flex;
-  align-items: center;
+
   letter-spacing: 0.04em;
   cursor: pointer;
   background: #4d5ae5;
@@ -100,7 +98,6 @@ body {
 /* ==========header========= */
 
 .menu-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -119,7 +116,6 @@ body {
   color: var(--secondary-text-color);
 }
 .mail {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -155,6 +151,11 @@ body {
 /* ==============second-section========== */
 
 /* ==============/second-section========== */
+/* ======foutth section======== */
+.fourth-section {
+  background-color: #f4f4fd;
+}
+/* ======/foutth section======== */
 /* =======footer====== */
 .footer {
   width: 1440px;
