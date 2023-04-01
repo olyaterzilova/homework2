@@ -5,6 +5,7 @@
   --background-button: #404bbf;
   --portfolio-button-color: #ffffff;
   --html-button-color: #ffffff;
+  --logo-color: #f4f4fd;
 }
 .list {
   list-style: none;
@@ -14,8 +15,8 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--secondary-text-color);
+  background-color: var(--portfolio-button-color);
 }
 /* ==========COMPONENTS ========*/
 .section-title {
@@ -50,7 +51,7 @@ body {
   display: flex;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--primary-button);
 }
 .logo-part-two {
   font-weight: 800;
@@ -62,7 +63,7 @@ body {
   text-transform: uppercase;
 }
 .logo-part-two-dark {
-  color: #f4f4fd;
+  color: var(--logo-color);
 }
 .logo-part-two-light {
   color: var(--primary-text-color);
@@ -94,7 +95,7 @@ body {
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: #404bbf;
+  color: var(--background-button);
 }
 .contacts {
   font-weight: 400;
@@ -106,7 +107,7 @@ body {
 }
 .contacts:hover,
 .contacts:focus {
-  color: #404bbf;
+  color: var(--background-button);
 }
 .contacts {
   font-weight: 400;
@@ -138,11 +139,11 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
   color: var(--html-button-color);
-  background-color: #4d5ae5;
+  background-color: var(--primary-button);
 }
 .modal-button:hover,
 .modal-button:focus {
-  background-color: #404bbf;
+  background-color: var(--background-button);
   color: var(--html-button-color);
 }
 .portfolio-button {
@@ -163,7 +164,7 @@ body {
   background-color: var(--background-button);
 }
 .hero-section {
-  background: #2e2f42;
+  background: var(--primary-text-color);
 }
 .hero-title {
   text-align: center;
@@ -171,7 +172,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--html-button-color);
 }
 
 /* ==========/hero====================== */
@@ -180,10 +181,10 @@ body {
 /* ==============/second-section========== */
 /* ======foutth section======== */
 .fourth-section {
-  background-color: #f4f4fd;
+  background-color: var(--logo-color);
 }
 .main-section-item {
-  background-color: #ffffff;
+  background-color: var(--portfolio-button-color);
 }
 
 /* ======/foutth section======== */
@@ -193,13 +194,13 @@ body {
   height: 312px;
   left: 0px;
   top: 2280px;
-  background: #2e2f42;
+  background: var(--primary-text-color);
 }
 .footer-section-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--logo-color);
 }
 /* =======footer====== */
