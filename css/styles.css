@@ -1,6 +1,7 @@
 :root {
   --primary-text-color: #2e2f42;
   --secondary-text-color: #434455;
+  --primary-button: #4d5ae5;
 }
 .list {
   list-style: none;
@@ -85,11 +86,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   display: flex;
-
   letter-spacing: 0.04em;
   cursor: pointer;
-  background: #4d5ae5;
-  color: #ffffff;
+  background-color: #f4f4fd;
+  color: var(--primary-button);
 }
 .modal-button:hover,
 .modal-button:focus {
@@ -112,6 +112,7 @@ body {
 }
 .contact-phone-number {
   font-weight: 400;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -161,8 +162,12 @@ body {
 /* ==============/second-section========== */
 /* ======foutth section======== */
 .fourth-section {
+  background-color: #f4f4fd;
+}
+.main-section-list {
   background-color: #ffffff;
 }
+
 /* ======/foutth section======== */
 /* =======footer====== */
 .footer {
