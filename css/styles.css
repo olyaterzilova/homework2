@@ -1,3 +1,7 @@
+:root {
+  --primary-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+}
 .list {
   list-style: none;
 }
@@ -6,6 +10,8 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 /* ==========COMPONENTS ========*/
 .section-title {
@@ -13,14 +19,14 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--primary-text-color);
 }
 .main-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--secondary-text-color);
 }
 .main-section-title {
   font-weight: 700;
@@ -28,7 +34,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--primary-text-color);
 }
 
 .logo {
@@ -56,21 +62,21 @@ body {
   color: #f4f4fd;
 }
 .logo-part-two-light {
-  color: #2e2f42;
+  color: var(--primary-text-color);
 }
 .section-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--primary-text-color);
 }
 .main-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--secondary-text-color);
 }
 
 .modal-button {
@@ -92,17 +98,6 @@ body {
 
 /* ==========/COMPONENTS ========*/
 /* ==========header========= */
-.logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
 
 .menu-link {
   font-style: normal;
@@ -110,19 +105,18 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--primary-text-color);
 }
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
 }
 .contact-phone-number {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--secondary-text-color);
 }
 .mail {
   font-style: normal;
@@ -130,7 +124,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--secondary-text-color);
 }
 .mail:hover,
 .mail:focus {
@@ -140,10 +134,9 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--primary-text-color);
 }
 /* ==============/header========== */
 /* ==============hero============= */
@@ -155,7 +148,6 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-
   color: #ffffff;
 }
 
