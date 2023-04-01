@@ -88,6 +88,8 @@ body {
   display: flex;
   letter-spacing: 0.04em;
   cursor: pointer;
+  background-color: #4d5ae5;
+  color: #ffffff;
 }
 .first-button:hover,
 .first-button:focus {
@@ -114,7 +116,7 @@ body {
 .menu-link:focus {
   color: #404bbf;
 }
-.contact-phone-number {
+.contacts {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -122,11 +124,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-.contact-phone-number:hover,
-.contact-phone-number:focus {
+.contacts:hover,
+.contacts:focus {
   color: #434455;
 }
-.mail {
+.contacts {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -134,10 +136,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-.mail:hover,
-.mail:focus {
-  color: #404bbf;
-}
+
 .main-section-title {
   text-align: center;
   font-weight: 700;
