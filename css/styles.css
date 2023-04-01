@@ -32,12 +32,14 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-text-color);
 }
 
 .logo {
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -77,6 +79,7 @@ body {
 }
 
 .modal-button {
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -114,6 +117,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+  color: #434455;
+}
 .mail {
   font-weight: 400;
   font-size: 16px;
@@ -126,6 +133,7 @@ body {
   color: #404bbf;
 }
 .main-section-title {
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -139,6 +147,7 @@ body {
   background: #2e2f42;
 }
 .hero-title {
+  text-align: center;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -152,7 +161,7 @@ body {
 /* ==============/second-section========== */
 /* ======foutth section======== */
 .fourth-section {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 /* ======/foutth section======== */
 /* =======footer====== */
