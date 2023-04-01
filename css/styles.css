@@ -88,12 +88,14 @@ body {
   display: flex;
   letter-spacing: 0.04em;
   cursor: pointer;
-  background-color: #f4f4fd;
-  color: var(--primary-button);
+  color: #ffffff;
+
+  background-color: #4d5ae5;
 }
 .modal-button:hover,
 .modal-button:focus {
   background: #404bbf;
+  color: #ffffff;
 }
 
 /* ==========/COMPONENTS ========*/
@@ -124,6 +126,7 @@ body {
 }
 .mail {
   font-weight: 400;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -164,7 +167,7 @@ body {
 .fourth-section {
   background-color: #f4f4fd;
 }
-.main-section-list {
+.main-section-item {
   background-color: #ffffff;
 }
 
