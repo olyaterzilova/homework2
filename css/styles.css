@@ -79,24 +79,6 @@ body {
   color: var(--secondary-text-color);
 }
 
-.modal-button {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  color: #ffffff;
-  background-color: #4d5ae5;
-}
-.modal-button:hover,
-.modal-button:focus {
-  background-color: #404bbf;
-  color: #ffffff;
-}
-
 /* ==========/COMPONENTS ========*/
 /* ==========header========= */
 
@@ -121,7 +103,7 @@ body {
 }
 .contacts:hover,
 .contacts:focus {
-  color: #434455;
+  color: #404bbf;
 }
 .contacts {
   font-weight: 400;
@@ -143,6 +125,39 @@ body {
 }
 /* ==============/header========== */
 /* ==============hero============= */
+.modal-button {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+.modal-button:hover,
+.modal-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+.portfolio-button {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--primary-button);
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
 .hero-section {
   background: #2e2f42;
 }
