@@ -14,11 +14,6 @@
   text-decoration: none;
 }
 
-.body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--secondary-text-color);
-  background-color: var(--portfolio-button-color);
-}
 /* ==========COMPONENTS ========*/
 .section-title {
   font-weight: 500;
@@ -27,6 +22,12 @@
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
+.body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--secondary-text-color);
+  background-color: var(--portfolio-button-color);
+}
+
 .main-description {
   font-weight: 400;
   font-size: 16px;
