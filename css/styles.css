@@ -13,7 +13,10 @@
 .link {
   text-decoration: none;
 }
-body {
+.fond-style-address: {
+  font-style: none;
+}
+.body {
   font-family: 'Roboto', sans-serif;
   color: var(--secondary-text-color);
   background-color: var(--portfolio-button-color);
